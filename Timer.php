@@ -17,7 +17,7 @@ require_once './Core.php';
 class Timer {    
     static function start($seconds) {
         Core::start_timer($seconds); // countdown from $seconds
-        header("Location: Output.php"); //it open the page with countdown
+        header("Location: Output.php"); //it opens the page with countdown
     }   
 }
 
